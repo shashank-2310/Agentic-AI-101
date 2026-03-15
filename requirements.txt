@@ -1,2 +1,23 @@
+# must have dependencies
 ipykernel
 jupyter
+
+# common dependencies for all notebooks
+langchain
+langsmith
+python-dotenv
+
+# dependencies for langchain demo notebooks
+langchain-groq
+langchain-openrouter
+
+
+# dependencies for data ingestion notebook
+langchain_community
+pypdf
+beautifulsoup4
+arxiv
+pymupdf
+wikipedia
+pyowm
+
