@@ -28,3 +28,7 @@ chromadb
 langchain-ollama
 sentence_transformers
 langchain_huggingface
+
+# dependencies for vector store db notebooks
+faiss-cpu
+langchain_chroma
