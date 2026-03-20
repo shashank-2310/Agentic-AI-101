@@ -21,3 +21,10 @@ pyowm
 
 # dependencies for data transformation notebooks
 langchain-text-splitters
+
+# dependencies for embedding notebooks
+langchain_openai
+chromadb
+langchain-ollama
+sentence_transformers
+langchain_huggingface
