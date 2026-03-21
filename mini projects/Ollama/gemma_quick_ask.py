@@ -1,3 +1,17 @@
+""""
+Gemma QuickAsk
+
+A lightweight Streamlit Q&A app that uses LangChain + Ollama (gemma:2b) to answer user-entered questions.  
+The app:
+
+- Loads environment variables (including optional LangSmith tracing settings)
+- Defines a simple chat prompt (system + user question)
+- Builds a LangChain pipeline: Prompt → OllamaLLM → String Output Parser
+- Takes input from a Streamlit text box and displays the model's response
+
+In short, it is a minimal local-LLM question-answer mini project with a clean web UI.
+"""
+
 import os
 import streamlit as st
 
