@@ -1,3 +1,8 @@
 .venv
 .vscode
-__pycache__
+
+.env
+**/.env
+
+vector_store_db/chroma_db
+vector_store_db/faiss_index
