@@ -1,34 +1,29 @@
-# common dependencies
 ipykernel
 jupyter
 python-dotenv
+
 langchain
 langsmith
 langchain_community
+langchain-classic
 
-# dependencies for langchain demo notebooks
-langchain-groq
 langchain-openrouter
-
-
-# dependencies for data ingestion notebook
-pypdf
-beautifulsoup4
-arxiv
-pymupdf
-wikipedia
-pyowm
-
-# dependencies for data transformation notebooks
-langchain-text-splitters
-
-# dependencies for embedding notebooks
 langchain_openai
-chromadb
 langchain-ollama
-sentence_transformers
+langchain-groq
 langchain_huggingface
 
-# dependencies for vector store db notebooks
-faiss-cpu
+langchain-text-splitters
+sentence_transformers
+
 langchain_chroma
+faiss-cpu
+chromadb
+
+pypdf
+pyowm
+pymupdf
+arxiv
+wikipedia
+beautifulsoup4
+
