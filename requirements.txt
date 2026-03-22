@@ -6,6 +6,7 @@ langchain
 langsmith
 langchain_community
 langchain-classic
+langserve
 
 langchain-openrouter
 langchain_openai
@@ -28,4 +29,6 @@ wikipedia
 beautifulsoup4
 
 streamlit
-
+uvicorn
+fastapi
+sse_starlette
